@@ -1,5 +1,4 @@
-# Simple Notes App
-
+# Memo App
 A lightweight note-taking application for daily use.
 
 ## Features
@@ -11,7 +10,7 @@ A lightweight note-taking application for daily use.
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/simple-notes.git
+git clone https://github.com/thelkotolsantosh/Memo-app
 cd simple-notes
 pip install -r requirements.txt
 python main.py
