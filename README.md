@@ -50,6 +50,150 @@ simple-notes/
     └── usage.py
 ```
 
+## Windows Installation
+
+### Prerequisites
+- Install Python 3.10 or newer
+- Install Git
+
+Verify installation:
+
+```bash
+python --version
+git --version
+```
+
+### Clone Repository
+
+```bash
+git clone https://github.com/thelkotolsantosh/simple_notes.git
+cd simple-notes
+```
+
+### Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+Activate virtual environment:
+
+```bash
+venv\Scripts\activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run Application
+
+```bash
+python main.py
+```
+
+---
+
+## Linux Installation
+
+### Prerequisites
+
+Install Python, pip, and Git.
+
+Ubuntu/Debian:
+
+```bash
+sudo apt update
+sudo apt install python3 python3-pip python3-venv git -y
+```
+
+Arch Linux:
+
+```bash
+sudo pacman -S python python-pip git
+```
+
+Fedora:
+
+```bash
+sudo dnf install python3 python3-pip git
+```
+
+Verify installation:
+
+```bash
+python3 --version
+git --version
+```
+
+### Clone Repository
+
+```bash
+git clone https://github.com/thelkotolsantosh/simple_notes.git
+cd simple-notes
+```
+
+### Create Virtual Environment
+
+```bash
+python3 -m venv venv
+```
+
+Activate virtual environment:
+
+```bash
+source venv/bin/activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run Application
+
+```bash
+python3 main.py
+```
+
+---
+
+## Troubleshooting
+
+### Python Not Found
+
+Windows:
+- Reinstall Python and enable:
+  - `Add Python to PATH`
+
+Linux:
+- Ensure Python is installed correctly.
+
+### Permission Denied (Linux)
+
+Use:
+
+```bash
+chmod +x main.py
+```
+
+### Virtual Environment Not Activating
+
+Windows PowerShell:
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Then reactivate:
+
+```bash
+venv\Scripts\activate
+```
+
 ## License
 
 MIT License
